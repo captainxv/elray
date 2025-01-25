@@ -1,0 +1,34 @@
+/* Import modular CSS structure */
+@import '$lib/styles/base/_index.css';
+@import '$lib/styles/components/_index.css';
+@import '$lib/styles/utilities/_index.css';
+@import '$lib/styles/themes/_index.css';
+
+/* Custom Properties */
+:root {
+  /* Colors */
+  --color-primary: #FFD600;
+  --color-secondary: #1A1A1A;
+  --color-background: #151414;
+  --color-text: #FFFFFF;
+  --color-text-secondary: #CCCCCC;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  
+  /* Typography */
+  --font-primary: 'A-OTF Shin Go Pro', system-ui, sans-serif;
+  --font-digital: monospace;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background: var(--color-background);
+  margin: 0;
+  padding: 0;
+} 

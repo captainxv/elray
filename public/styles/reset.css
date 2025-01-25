@@ -1,0 +1,11 @@
+/* Move all the reset styles from app.css here */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: theme("borderColor.DEFAULT", currentColor);
+}
+
+/* ... rest of the reset styles ... */ 

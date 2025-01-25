@@ -1,0 +1,20 @@
+.widgets-section {
+  padding: var(--spacing-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 2;
+}
+
+.top-widgets {
+  display: flex;
+  gap: 8px;
+}
+
+.weather-widget {
+  flex: 1;
+  background: #27251e;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+} 

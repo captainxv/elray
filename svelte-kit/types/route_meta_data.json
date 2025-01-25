@@ -1,0 +1,13 @@
+{
+	"/": [
+		"src/routes/+page.js",
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/map": [
+		"src/routes/+layout.js"
+	],
+	"/pilot": [
+		"src/routes/+layout.js"
+	]
+}

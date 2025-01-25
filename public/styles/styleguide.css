@@ -1,0 +1,17 @@
+:root {
+  --basetext: rgba(242, 242, 242, 1);
+  --baseindicator: rgba(242, 242, 242, 1);
+  --multicolorlight-orange: rgba(242, 163, 60, 1);
+  --baseprimary-background: rgba(0, 0, 0, 1);
+  --multicoloryellow: rgba(255, 230, 32, 1);
+  --sombra: 0px 10px 8px -1px rgba(0, 0, 0, 0.08);
+}
+
+@font-face {
+  font-family: 'shingo';
+  src:"./fonts/shingo/shingoregular.ttf" format('truetype');
+}
+
+* {
+  font-family: 'shingo', sans-serif;
+}

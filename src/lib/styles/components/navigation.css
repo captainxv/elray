@@ -1,0 +1,17 @@
+.navigation-bar {
+  margin-top: auto;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(26, 26, 26, 0.9), transparent);
+}
+
+.bottom-buttons {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+} 

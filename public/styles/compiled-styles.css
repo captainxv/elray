@@ -1,0 +1,30 @@
+.route-progress-route-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+}
+
+.route-progress-t-ray {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.route-progress-t-pickup-pilot-route-arrival {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.route-progress-ray,
+.route-progress-pickup,
+.route-progress-pilot,
+.route-progress-route,
+.route-progress-arrival {
+  width: 24px;
+  height: 24px;
+} 
